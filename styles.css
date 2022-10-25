@@ -1,0 +1,35 @@
+
+.topd{
+
+    background-color: red;
+    overflow: hidden;
+    height: 170px;
+}
+
+body{
+
+    background-color: darkgray;
+}
+
+.card{
+
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(46, 45, 45);
+    margin: auto;
+}
+
+img{
+
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.cont{
+
+    display: flex;
+    flex-direction: row;
+}
