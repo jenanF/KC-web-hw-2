@@ -8,24 +8,39 @@
 
 body{
 
-    background-color: darkgray;
+    background-color:  rgb(46, 45, 45);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .card{
 
-    width: 200px;
+    width: 215px;
     height: 300px;
     border-radius: 10px;
-    background-color: rgb(46, 45, 45);
+    box-shadow: none;
     margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
-img{
 
-    width: 180px;
-    height: 250px;
-    border-radius: 10px;
-    padding: 20px;
+.immg{
+
+    width: 210px;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+
+.immgg{
+
+    width: 210px;
+    height: 600px;
+    border-radius: 20px;
+    
 }
 
 .cont{
@@ -33,3 +48,95 @@ img{
     display: flex;
     flex-direction: row;
 }
+
+.col{
+    color: white;
+}
+
+h1{
+    color: white;
+    padding-left: 50px;
+    font-size: xxx-large;
+    text-align: center;
+    padding-right: 50px;
+    
+}
+
+#anim{
+    margin-top: 200px;
+    
+}
+
+#drama{
+    margin-top: 200px;
+    
+}
+
+nav{
+
+    background-color: red;
+}
+
+a{
+    padding-bottom: 30px;
+    color: aliceblue;
+    font-size: large;
+    
+}
+
+
+footer{
+    background-color: red;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+button{
+    background-color: red;
+}
+
+
+
+
+
+#test {
+    position: relative;
+    
+}
+.front {
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+    position: absolute;
+    z-index: 1;
+    backface-visibility: hidden;
+}
+.back {
+    
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    transform: rotateY(180deg);
+    top: 0;
+    left: 0;
+    backface-visibility: visible;
+    
+}
+#test:hover .front {
+    transform: rotateY(180deg);
+
+}
+.back:hover {
+
+   backface-visibility: hidden;
+}
+
+
+.card:hover{
+    cursor: pointer;
+}
+
+
+
